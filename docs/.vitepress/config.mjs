@@ -16,6 +16,7 @@ export default defineConfig({
           text: '推理优化',
           items: [
             { text: '学习路线图', link: '/inference/roadmap' },
+            { text: '为什么还需要推理优化', link: '/inference/why-optimize' },
             { text: 'vLLM 部署+源码导读', link: '/inference/vllm-guide' },
             { text: 'SGLang 部署+源码导读', link: '/inference/sglang-guide' },
             { text: '推理优化工程师全景', link: '/inference/engineer-overview' },
