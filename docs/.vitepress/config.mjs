@@ -9,6 +9,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '推理优化', link: '/inference/' },
       { text: 'Agentic RL', link: '/agentic-rl/' },
+      { text: 'Agent 设计', link: '/agent/' },
     ],
     sidebar: {
       '/inference/': [
@@ -29,6 +30,14 @@ export default defineConfig({
           text: 'Agentic RL',
           items: [
             { text: '即将更新...', link: '/agentic-rl/' },
+          ]
+        }
+      ],
+      '/agent/': [
+        {
+          text: 'Agent 设计',
+          items: [
+            { text: 'OpenClaw Agent 核心设计拆解', link: '/agent/openclaw-design' },
           ]
         }
       ],
