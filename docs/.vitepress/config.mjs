@@ -22,6 +22,7 @@ export default defineConfig({
             { text: 'SGLang 部署+源码导读', link: '/inference/sglang-guide' },
             { text: '推理优化工程师全景', link: '/inference/engineer-overview' },
             { text: 'Triton 入门教程', link: '/inference/triton-tutorial' },
+            { text: 'POI 地址解析：BERT+BiLSTM+CRF 多任务实践', link: '/inference/poi-ner' },
           ]
         }
       ],
